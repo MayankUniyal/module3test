@@ -1,0 +1,23 @@
+<div>
+<span>By clicking on main thread system will hang for a short timespan. while using web-worker system will not hang at all.</span>
+</div>
+
+<br>
+
+
+<div>
+    <button (click)="startWebWorker()" type="button">Start Web Worker</button>
+</div>
+
+<div>
+    <button (click)="startMain()" type="button">Start Main</button>
+</div>
+
+<div>
+    <button (click)="printData()" type="button">Click Here</button>
+</div>
+
+<div>
+    {{showData}}
+</div>
+
